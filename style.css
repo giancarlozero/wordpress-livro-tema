@@ -1,0 +1,19 @@
+.cabecalho {
+    min-height: 150px;
+    background-color: #FFA0A0;
+}
+
+.conteudo {
+    min-height: 600px;
+    background-color: #A0FFB3;
+}
+
+.lateral {
+    min-height: 600px;
+    background-color: #ABA0FF;
+}
+
+.rodape {
+    min-height: 50px;
+    background-color: #FAFFA0;
+}
