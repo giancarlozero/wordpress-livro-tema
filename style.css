@@ -1,3 +1,16 @@
+/*
+Theme Name: Tema Sem Nome
+Theme URI: http://giancarlosilva.com.br
+Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
+Author: Giancarlo Silva
+Author URI: http://giancarlosilva.com.br
+Version: 0.0.1 Alpha
+Tags: two-columns
+
+License: GNU GPLv2
+License URI: https://wordpress.org/about/gpl/
+*/
+
 .cabecalho {
     min-height: 150px;
     background-color: #FFA0A0;
