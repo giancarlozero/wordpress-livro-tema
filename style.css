@@ -4,19 +4,27 @@ Theme URI: http://giancarlosilva.com.br
 Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
 Author: Giancarlo Silva
 Author URI: http://giancarlosilva.com.br
-Version: 0.0.1 Alpha
-Tags: two-columns
+Version: 0.0.2 Alpha
+Tags: two-columns, responsive
 
 License: GNU GPLv2
 License URI: https://wordpress.org/about/gpl/
 */
 
 .cabecalho {
+    padding-top: 10px;
+    padding-bottom: 10px;
     min-height: 150px;
     background-color: #FFA0A0;
 }
 
+.busca {
+    position: relative;
+    top: 50px;
+}
+
 .conteudo {
+    padding-top: 10px;
     min-height: 600px;
     background-color: #A0FFB3;
 }
@@ -29,4 +37,8 @@ License URI: https://wordpress.org/about/gpl/
 .rodape {
     min-height: 50px;
     background-color: #FAFFA0;
+}
+
+.rodape-creditos {
+    padding-top: 12px;
 }

@@ -4,7 +4,7 @@
         <!-- Metatags do Foundation para suporte a UTF-8 e responsividade -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+
         <title>Meu Blog</title>
 
         <!-- CSS do Foundation Framework -->
@@ -18,18 +18,82 @@
         <script src="js/vendor/modernizr.js"></script>
     </head>
     <body>
-        <div class="container row">
-            <div class="cabecalho small-12 large-12 column">
-                Cabeçalho - Logotipo e caixa de pesquisa
+        <div class="container row"> <!-- Container -->
+            <div class="cabecalho small-12 large-12 column show-for-medium"> <!-- Cabeçalho -->
+                <div class="row">
+                    <div class="logo small-12 medium-8 large-7 left column">
+                        <img src="http://placehold.it/350x150?text=Logo">
+                    </div>
+                    <div class="busca small-10 medium-4 large-5 right column">
+                        <form>
+                            <div class="row collapse">
+                                <div class="small-10 columns">
+                                    <input type="text">
+                                </div>
+                                <div class="small-2 columns">
+                                    <input type="submit" class="button postfix" value="BUSCAR" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>                    
+                </div>
             </div>
-            <div class="conteudo small-12 large-8 column">
-                Conteúdo - Posts exibidos em ordem cronológica reversa.
+            <div class="conteudo small-12 large-8 column"> <!-- Conteúdo -->
+                <div class="post row"> <!-- Exibição de prévia do post -->
+                    <div class="post-thumb small-12 medium-4 large-4 column">
+                        <img src="http://placehold.it/250x200?text=Thumbnail">
+                    </div>
+                    <div class="post-preview small-12 medium-8 large-8 column">
+                        <a href="#"><h1>Lorem Ipsum</h1></a>
+                        <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
+                        <a class="float-right button" href="#">Leia mais!</a>
+                    </div>
+                </div>
+                <div class="post row"> <!-- Exibição de prévia do post -->
+                    <div class="post-thumb small-12 medium-4 large-4 column">
+                        <img src="http://placehold.it/250x200?text=Thumbnail">
+                    </div>
+                    <div class="post-preview small-12 medium-8 large-8 column">
+                        <a href="#"><h1>Lorem Ipsum</h1></a>
+                        <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
+                        <a class="float-right button" href="#">Leia mais!</a>
+                    </div>
+                </div>
+                <div class="post row"> <!-- Exibição de prévia do post -->
+                    <div class="post-thumb small-12 medium-4 large-4 column">
+                        <img src="http://placehold.it/250x200?text=Thumbnail">
+                    </div>
+                    <div class="post-preview small-12 medium-8 large-8 column">
+                        <a href="#"><h1>Lorem Ipsum</h1></a>
+                        <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
+                        <a class="float-right button" href="#">Leia mais!</a>
+                    </div>
+                </div>
             </div>
             <div class="lateral small-12 large-4 column">
-                Lateral - Exibição de widgets
+                <div class="widget row"> <!-- Widget -->
+                    <div class="conteudo-widget small-12 medium-12 large-12 column">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
+                    </div>
+                </div>
+                <div class="widget row"> <!-- Widget -->
+                    <div class="conteudo-widget small-12 medium-12 large-12 column">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
+                    </div>
+                </div>
+                <div class="widget row"> <!-- Widget -->
+                    <div class="conteudo-widget small-12 medium-12 large-12 column">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
+                    </div>
+                </div>
             </div>
-            <div class="rodape small-12 large-12 column">
-                Rodapé - Créditos e outras informações
+            <div class="rodape small-12 large-12 column text-center">
+                <div class="rodape-creditos">
+                    Rodapé - Créditos e outras informações
+                </div>
             </div>
         </div>
 

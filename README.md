@@ -14,4 +14,5 @@ Você não é obrigado a comprar o meu livro WordPress: de blogs pessoais a gran
 
 ## Histórico de mudanças/Change log:
 
-**Versão 0.0.1 Alpha (21/03/2016)** - Início da criação do código em HTML5. Definição da licença.
+* **Versão 0.0.2 Alpha (21/03/2016)** - Estrutura da home iniciada.
+* **Versão 0.0.1 Alpha (21/03/2016)** - Início da criação do código em HTML5. Definição da licença.
