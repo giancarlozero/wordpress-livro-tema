@@ -4,13 +4,47 @@ Theme URI: http://giancarlosilva.com.br
 Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
 Author: Giancarlo Silva
 Author URI: http://giancarlosilva.com.br
-Version: 0.0.2 Alpha
+Version: 0.0.3 Alpha
 Tags: two-columns, responsive
 
 License: GNU GPLv2
 License URI: https://wordpress.org/about/gpl/
 */
 
+/* Tipografia */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/* Cabeçalho */
 .cabecalho {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -23,17 +57,41 @@ License URI: https://wordpress.org/about/gpl/
     top: 50px;
 }
 
+/* Menu de navegação */
+.barra-menu {
+    background-color: #FEC6FF;
+}
+
+/* Conteúdo - Posts e páginas */
 .conteudo {
     padding-top: 10px;
     min-height: 600px;
     background-color: #A0FFB3;
 }
 
+.post, .widget {
+    margin-bottom: 10px;
+}
+
+.post-titulo a h1, .pagina-titulo a h1 {
+    font-size: 2.4rem !important;
+}
+
+.post-texto, .pagina-texto {
+    min-height: 500px;
+}
+
+.post-comentarios {
+    min-height: 200px;
+}
+
+/* Barra lateral */
 .lateral {
     min-height: 600px;
     background-color: #ABA0FF;
 }
 
+/* Rodapé */
 .rodape {
     min-height: 50px;
     background-color: #FAFFA0;
