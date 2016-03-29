@@ -42,21 +42,36 @@
                     </div>                    
                 </div>
             </div>
-            <nav class="barra-menu">
-                <ul class="menu">
-                    <li><a href="#">Opção 01</a></li>
-                    <li><a href="#">Opção 02</a></li>
-                    <li><a href="#">Opção 03</a></li>
-                    <li><a href="#">Opção 04</a></li>
-                    <li><a href="#">Opção 05</a></li>
-                    <li><a href="#">Opção 06</a></li>
-                </ul>
-            </nav>
+            <div class="barra-menu small-12 large-12 column">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <!-- <li class="menu-text">Site Title</li> -->
+                            <li>
+                                <a href="#">Item 01</a>
+                                <ul class="menu vertical">
+                                    <li><a href="#">Subitem 01</a></li>
+                                    <li><a href="#">Subitem 02</a></li>
+                                    <li><a href="#">Subitem 03</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Item 02</a></li>
+                            <li><a href="#">Item 03</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right hide-for-medium">
+                        <ul class="menu">
+                            <li><input type="search" placeholder="Buscar"></li>
+                            <li><button type="button" class="button">Buscar</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <div class="conteudo small-12 large-8 column"> <!-- Conteúdo -->
                 <div class="post row"> <!-- Exibição de prévia do post -->
                     <div class="post-titulo small-12 medium-12 large-12 column">
                         <a href="#"><h1>Lorem Ipsum</h1></a>
-                        <p>12/34/5678 - Escrito por Fulano de tal - X Comentários</p>
+                        <p>12/34/5678 - <a href="#">Escrito por Fulano de tal</a> - <a href="#">X Comentários</a></p>
                     </div>
                     <div class="post-texto small-12 medium-12 large-12 column">
                         <h1>Lorem Ipsum</h1>
@@ -95,7 +110,7 @@
             </div>
             <div class="rodape small-12 large-12 column text-center">
                 <div class="rodape-creditos">
-                    Rodapé - Créditos e outras informações
+                    <a href="https://wordpress.org">Orgulhosamente mantido com WordPress</a> - <a href="#">Compre meu livro! ^^</a>
                 </div>
             </div>
         </div>

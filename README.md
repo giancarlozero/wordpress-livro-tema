@@ -14,6 +14,7 @@ Você não é obrigado a comprar o meu livro WordPress: de blogs pessoais a gran
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 0.0.4 Alpha (29/03/2016)** - Identidade visual criada.
 * **Versão 0.0.3 Alpha (25/03/2016)** - Estrutura de posts e páginas iniciada. Ajustes na estrutura da home. Menu adicionado. Webfonts adicionadas.
 * **Versão 0.0.2 Alpha (21/03/2016)** - Estrutura da home iniciada.
 * **Versão 0.0.1 Alpha (21/03/2016)** - Início da criação do código em HTML5. Definição da licença.

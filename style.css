@@ -4,7 +4,7 @@ Theme URI: http://giancarlosilva.com.br
 Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
 Author: Giancarlo Silva
 Author URI: http://giancarlosilva.com.br
-Version: 0.0.3 Alpha
+Version: 0.0.4 Alpha
 Tags: two-columns, responsive
 
 License: GNU GPLv2
@@ -14,6 +14,7 @@ License URI: https://wordpress.org/about/gpl/
 /* Tipografia */
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #BFE6FF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,12 +45,26 @@ h6 {
     font-size: 1rem;
 }
 
+/*Container*/
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
 /* Cabeçalho */
 .cabecalho {
+    background-color: #FFF;
     padding-top: 10px;
     padding-bottom: 10px;
     min-height: 150px;
-    background-color: #FFA0A0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .busca {
@@ -59,14 +74,18 @@ h6 {
 
 /* Menu de navegação */
 .barra-menu {
-    background-color: #FEC6FF;
+    background-color: #FFF;
+}
+
+.top-bar, .top-bar-left, .dropdown.menu, .menu li {
+    background-color: #BFE6FF;
 }
 
 /* Conteúdo - Posts e páginas */
 .conteudo {
+    border-right: 1px dotted #BFE6FF;
     padding-top: 10px;
     min-height: 600px;
-    background-color: #A0FFB3;
 }
 
 .post, .widget {
@@ -82,21 +101,28 @@ h6 {
 }
 
 .post-comentarios {
+    border-top: 1px dotted #BFE6FF;
     min-height: 200px;
 }
 
 /* Barra lateral */
 .lateral {
     min-height: 600px;
-    background-color: #ABA0FF;
 }
 
 /* Rodapé */
 .rodape {
     min-height: 50px;
-    background-color: #FAFFA0;
+    background-color: #FFF;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .rodape-creditos {
+    border-top: 1px dotted #BFE6FF;
     padding-top: 12px;
 }
