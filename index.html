@@ -26,9 +26,9 @@
             <div class="cabecalho small-12 large-12 column"> <!-- Cabeçalho -->
                 <div class="row">
                     <div class="logo small-12 medium-8 large-7 left column">
-                        <img src="http://placehold.it/350x150?text=Logo">
+                        <a href="#"><img src="http://placehold.it/350x150?text=Logo"></a>
                     </div>
-                    <div class="busca small-10 medium-4 large-5 right column show-for-medium">
+                    <div class="busca small-10 medium-4 large-5 right column show-for-medium"> <!-- Busca -->
                         <form>
                             <div class="row collapse">
                                 <div class="small-10 columns">
@@ -43,26 +43,30 @@
                 </div>
             </div>
             <div class="barra-menu small-12 large-12 column">
-                <div class="top-bar">
+                <div class="top-bar" id="main-menu">
                     <div class="top-bar-left">
                         <ul class="dropdown menu" data-dropdown-menu>
                             <!-- <li class="menu-text">Site Title</li> -->
-                            <li>
-                                <a href="#">Item 01</a>
-                                <ul class="menu vertical">
-                                    <li><a href="#">Subitem 01</a></li>
-                                    <li><a href="#">Subitem 02</a></li>
-                                    <li><a href="#">Subitem 03</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Item 02</a></li>
-                            <li><a href="#">Item 03</a></li>
                         </ul>
                     </div>
-                    <div class="top-bar-right hide-for-medium">
-                        <ul class="menu">
-                            <li><input type="search" placeholder="Buscar"></li>
-                            <li><button type="button" class="button">Buscar</button></li>
+                    <div class="top-bar-right">
+                        <ul class="menu show-for-small-only">
+                            <li><input type="search" placeholder="Busca"></li>
+                            <li><button type="button" class="button">Busca</button></li>
+                        </ul>
+                        <ul class="menu vertical medium-horizontal expanded" data-responsive-menu="drilldown medium-dropdown">
+                            <li class="has-submenu">
+                                <a href="#">Opção 01</a>
+                                <ul class="submenu menu vertical" data-submenu>
+                                    <li><a href="#">Opção 01</a></li>
+                                    <li><a href="#">Opção 02</a></li>
+                                    <li><a href="#">Opção 03</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Opção 02</a></li>
+                            <li><a href="#">Opção 03</a></li>
+                            <li><a href="#">Opção 04</a></li>
+                            <li><a href="#">Opção 05</a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,7 +74,9 @@
             <div class="conteudo small-12 medium-8 large-8 column"> <!-- Conteúdo -->
                 <div class="post row"> <!-- Exibição de prévia do post -->
                     <div class="post-thumb small-12 medium-4 large-4 column">
-                        <img src="http://placehold.it/600x450?text=Thumbnail">
+                        <a href="#">
+                            <img src="http://placehold.it/600x450?text=Thumbnail">
+                        </a>
                     </div>
                     <div class="post-preview small-12 medium-8 large-8 column">
                         <a href="#"><h1>Lorem Ipsum</h1></a>
@@ -80,7 +86,9 @@
                 </div>
                 <div class="post row"> <!-- Exibição de prévia do post -->
                     <div class="post-thumb small-12 medium-4 large-4 column">
-                        <img src="http://placehold.it/600x450?text=Thumbnail">
+                        <a href="#">
+                            <img src="http://placehold.it/600x450?text=Thumbnail">
+                        </a>
                     </div>
                     <div class="post-preview small-12 medium-8 large-8 column">
                         <a href="#"><h1>Lorem Ipsum</h1></a>
@@ -90,7 +98,9 @@
                 </div>
                 <div class="post row"> <!-- Exibição de prévia do post -->
                     <div class="post-thumb small-12 medium-4 large-4 column">
-                        <img src="http://placehold.it/600x450?text=Thumbnail">
+                        <a href="#">
+                            <img src="http://placehold.it/600x450?text=Thumbnail">
+                        </a>
                     </div>
                     <div class="post-preview small-12 medium-8 large-8 column">
                         <a href="#"><h1>Lorem Ipsum</h1></a>
@@ -121,7 +131,7 @@
             </div>
             <div class="rodape small-12 small-centered medium-12 medium-centered large-12 large-centered column text-center">
                 <div class="rodape-creditos">
-                    <a href="https://wordpress.org">Orgulhosamente mantido com WordPress</a> - <a href="#">Compre meu livro! ^^</a>
+                    <a href="https://wordpress.org">Orgulhosamente mantido com WordPress</a> - <a href="#">Compre meu livro! ^^</a> Ah, e pode apagar esse textinho do rodapé, se quiser.
                 </div>
             </div>
         </div>

@@ -14,6 +14,7 @@ Este tema para WordPress está sendo distribuído sob a *2ª versão da licença
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 0.0.5 Alpha (01/04/2016)** - Estrutura da home, de posts e de páginas concluída.
 * **Versão 0.0.4 Alpha (29/03/2016)** - Identidade visual criada. Pequena mudança no texto do README.
 * **Versão 0.0.3 Alpha (25/03/2016)** - Estrutura de posts e páginas iniciada. Ajustes na estrutura da home. Menu adicionado. Webfonts adicionadas.
 * **Versão 0.0.2 Alpha (21/03/2016)** - Estrutura da home iniciada.
