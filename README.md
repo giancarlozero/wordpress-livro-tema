@@ -8,7 +8,7 @@ Tema criado por [**Giancarlo Silva**](http://giancarlosilva.com.br). Informaçõ
 
 ## Como acompanhar os exercícios do livro?
 
-Cada capítulo da parte III do livro acompanha diversos exemplos em código. Além de ler o código nesses trechos do livro, você também poderá acessar o tema completo na raiz desse repositório ou acessar a pasta */livro*, que contém várias outras pastas chamadas */licao_01*, */licao_02*, */licao_03*, etc.
+Cada capítulo da parte III do livro acompanha diversos exemplos em código. Além de ler o código nesses trechos do livro, você também poderá acessar o tema completo na raiz desse repositório ou acessar a pasta */livro*, que contém várias outras pastas chamadas */passo_01*, */passo_02*, */passo_03*, etc.
 
 Cada uma dessas pastas mostrará somente o código relativo a seu respectivo capítulo, para que o(a) leitor(a) possa acompanhar melhor o progresso da criação deste tema.
 
