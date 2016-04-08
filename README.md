@@ -24,7 +24,7 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
-* **Versão 0.1.0 Alpha (01/04/2016)** - Início da divisão do HTML e conversão para a estrutura de tema WordPress. Modificação no README.
+* **Versão 0.1.0 Alpha (07/04/2016)** - Passo 01 do tutorial concluído. Modificação em informações importantes no README.
 * **Versão 0.0.5 Alpha (01/04/2016)** - Estrutura da home, de posts e de páginas concluída.
 * **Versão 0.0.4 Alpha (29/03/2016)** - Identidade visual criada. Pequena mudança no texto do README.
 * **Versão 0.0.3 Alpha (25/03/2016)** - Estrutura de posts e páginas iniciada. Ajustes na estrutura da home. Menu adicionado. Webfonts adicionadas.
