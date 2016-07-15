@@ -59,21 +59,9 @@
                         <!-- <ul class="dropdown menu" data-dropdown-menu>
                             <li class="menu-text">Site Title</li>
                         </ul> -->
-                        <?php 
-                            wp_nav_menu(array(
-                                'container' => false,
-                                'menu' => __( 'Cabeçalho', 'textdomain' ),
-                                'menu_class' => 'dropdown menu',
-                                'theme_location' => 'topbar-menu',
-                                'items_wrap'      => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
-    //Recommend setting this to false, but if you need a fallback...
-                                'fallback_cb' => 'f6_topbar_menu_fallback',
-                                'walker' => new F6_TOPBAR_MENU_WALKER(),
-                                ));
-                         ?>
                     </div>
                     <div class="top-bar-right">
-                        <!-- <ul class="menu show-for-small-only">
+                        <ul class="menu show-for-small-only">
                             <li><input type="search" placeholder="Busca"></li>
                             <li><button type="button" class="button">Busca</button></li>
                         </ul>
@@ -90,8 +78,7 @@
                             <li><a href="#">Opção 03</a></li>
                             <li><a href="#">Opção 04</a></li>
                             <li><a href="#">Opção 05</a></li>
-                        </ul> -->
-                        
+                        </ul>
                     </div>
                 </div>
             </div>
