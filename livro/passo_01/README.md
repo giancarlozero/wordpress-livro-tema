@@ -1,3 +1,3 @@
 # WordPress: de blogs pessoais a grandes portais - Tema para WordPress
 
-Material didático para uso com o livro. Faça o download e use-o para praticar os exercícios do Capítulo 6 da Parte III.
+Material didático para uso com o livro. Faça o download e use-o para praticar os exercícios do Capítulo 5 da Parte III.
