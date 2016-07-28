@@ -1,12 +1,12 @@
 <!doctype html>
-<html class="no-js" lang="pt-br">
+<html class="no-js" <?php language_attributes(); ?>>
     <head>
         <!-- Meta Tags gerais -->
-        <meta charset="utf-8" />
+        <meta charset="<?php bloginfo('charset'); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Título -->
-        <title>Meu Blog</title>
+        <title><?php wp_title(''); ?></title>
 
         <!-- WebFonts -->
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -19,15 +19,26 @@
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/foundation.min.css" />
         
         <!-- Biblioteca JavaScript Modernizr (dependência do Foundation) -->
-        <script src="js/vendor/modernizr.js"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr.js"></script>
+
+        <?php wp_head(); ?>
     </head>
+    <body <?php body_class(); ?>>
         <div class="container row">
             <!-- Cabeçalho -->
             <header>
                 <div class="cabecalho small-12 small-centered medium-7 large-7 left column">
-                    <a href="#">
-                        <img src="http://placehold.it/350x150?text=Logo">
-                    </a>
+                    <?php
+                        // Função de logotipo personalizado
+                        function meublog_the_custom_logo() {
+                            if ( function_exists( 'the_custom_logo' ) ) {
+                                the_custom_logo();
+                            }
+                        }
+
+                        // Chamada à esta função
+                        meublog_the_custom_logo();
+                    ?>
                 </div>
                 <div class="busca small-centered medium-5 large-5 right column show-for-medium-up">
                     <div class="row collapse">
@@ -49,18 +60,13 @@
                             <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
                         </ul>
                         <section class="top-bar-section">
-                            <ul>
-                                <li><a href="#">Opção 01</a></li>
-                                <li><a href="#">Opção 02</a></li>
-                                <li><a href="#">Opção 03</a></li>
-                                <li><a href="#">Opção 04</a></li>
-                                <li><a href="#">Opção 05</a></li>
-                                <li><a href="#">Opção 06</a></li>
-                                <li><a href="#">Opção 07</a></li>
-                                <li><a href="#">Opção 08</a></li>
-                                <li><a href="#">Opção 09</a></li>
-                                <li><a href="#">Opção 10</a></li>
-                            </ul>
+                            <!-- Botões do menu -->
+                            <?php wp_nav_menu(array(
+                                'theme_location'    => 'header-menu',
+                                'container'         => false,
+                                'menu_class'        => 'links-menu left',
+                                'walker'            => new Foundation_Walker_Nav_Menu()
+                            )); ?>
                         </section>
                     </nav>
                 </div>

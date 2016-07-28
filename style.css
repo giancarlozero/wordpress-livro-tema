@@ -76,6 +76,8 @@ h6 {
 /* Menu de navegação */
 .barra-menu {
     background-color: #FFF;
+    position: relative;
+    z-index: 10;
 }
 
 /*.top-bar, .top-bar ul, .top-bar-left, .dropdown.menu, .menu li {
