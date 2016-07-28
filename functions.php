@@ -23,7 +23,8 @@ add_action( 'after_setup_theme', 'custom_logo_setup' );
 
 add_theme_support('menus');
 
-function foundation_load_menu(){
+/* Adicionar suporte a menus personalizados no Tema */
+function register_my_menu(){
     register_nav_menu('header-menu', __('Menu do Cabeçalho'));
 }
 
@@ -32,14 +33,15 @@ function foundation_nav_menu_classes($classes, $item){
     if (in_array("current-menu-item", $classes)){
         array_push($classes, "active");
     }
+
     if (in_array("menu-item-has-children", $classes)){
-        array_push($classes, "has-dropdown");
+        array_push($classes, "has-dropdown not-click");
     }
     
     return $classes;
 }
 
-add_action('init', 'foundation_load_menu');
+add_action('init', 'register_my_menu'); // Chamada da função de registro de menu personalizado
 add_filter('nav_menu_css_class', 'foundation_nav_menu_classes', 10, 2);
 
 /* Submenus do menu principal - adaptação para Foundation Framework */

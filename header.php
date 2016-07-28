@@ -52,22 +52,25 @@
                 </div>
                 <!-- Menu de navegação -->
                 <div class="barra-menu small-12 medium-12 large-12 column">
-                    <nav class="top-bar" data-topbar role="navigation">
-                        <ul class="title-area">
-                            <li class="name">
-                                <!--<h1><a href="#">My Site</a></h1>-->
-                            </li>
-                            <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
-                        </ul>
-                        <section class="top-bar-section">
-                            <!-- Botões do menu -->
-                            <?php wp_nav_menu(array(
-                                'theme_location'    => 'header-menu',
-                                'container'         => false,
-                                'menu_class'        => 'links-menu left',
-                                'walker'            => new Foundation_Walker_Nav_Menu()
-                            )); ?>
-                        </section>
-                    </nav>
+                    <div class="menu-navegacao row">
+                        <nav class="top-bar" data-topbar role="navigation">
+                            <ul class="title-area">
+                                <li class="name">
+                                    <!--<h1><a href="#">My Site</a></h1>-->
+                                </li>
+                                <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
+                            </ul>
+                            <section class="top-bar-section">
+                                <!-- Botões do menu -->
+                                <?php wp_nav_menu(array(
+                                    'theme_location'    => 'header-menu',
+                                    'container'         => false,
+                                    'menu_class'        => 'links-menu left',
+                                    'walker'            => new Foundation_Walker_Nav_Menu(),
+                                    'fallback_cb'       => 'wp_page_menu();'
+                                )); ?>
+                            </section>
+                        </nav>
+                    </div>
                 </div>
             </header>
