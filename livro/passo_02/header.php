@@ -21,6 +21,7 @@
         <!-- Biblioteca JavaScript Modernizr (dependência do Foundation) -->
         <script src="js/vendor/modernizr.js"></script>
     </head>
+    <body>
         <div class="container row">
             <!-- Cabeçalho -->
             <header>
