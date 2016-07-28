@@ -47,8 +47,8 @@ h6 {
 
 /*Container*/
 .container {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
     background-color: #FFF;
     border-radius: 5px;
 }
