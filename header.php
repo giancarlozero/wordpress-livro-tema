@@ -61,7 +61,7 @@
                                 <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
                             </ul>
                             <section class="top-bar-section">
-                                <!-- Botões do menu -->
+                                <!-- Links do menu -->
                                 <?php wp_nav_menu(array(
                                     'theme_location'    => 'header-menu',
                                     'container'         => false,
