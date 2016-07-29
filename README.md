@@ -24,7 +24,8 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
-* **Versão 0.1.2 Alpha (27/07/2016)** - Passo 01 do tutorial refeito.
+* **Versão 0.1.2 Alpha (28/07/2016)** - Menu concluído apenas para a parte Desktop. Falta consertar a versão mobile do menu.
+* **Versão 0.1.1.1 Alpha (27/07/2016)** - Passo 01 do tutorial refeito.
 * **Versão 0.1.1 Alpha (15/07/2016)** - Foundation Framework 6 substituído pelo Foundation Framework 5 (acho mais fácil criar o menu responsivo usando esta versão). Reconstruindo o projeto e corrigindo o código.
 * **Versão 0.1.0 Alpha (07/04/2016)** - Passo 01 do tutorial concluído. Modificação em informações importantes no README.
 * **Versão 0.0.5 Alpha (01/04/2016)** - Estrutura da home, de posts e de páginas concluída.
