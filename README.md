@@ -4,7 +4,7 @@ Tema simples de duas colunas construído com base no Foundation Framework.
 
 Este tema será utilizado como material de estudo para uso em conjunto com o livro **WordPress: de blogs pessoais a grandes portais**. Ele também poderá ser usado como um tema comum em uma instalação do WordPress, tendo todas as funcionalidades mais básicas perfeitamente funcionais.
 
-Tema criado por [**Giancarlo Silva**](http://giancarlosilva.com.br). Informações sobre o livro podem ser encontradas [**neste link**](http://giancarlosilva.com.br/category/livros/wordpress/).
+Tema em desenvolvimento por [**Giancarlo Silva**](http://giancarlosilva.com.br). Informações sobre o livro podem ser encontradas [**neste link**](http://giancarlosilva.com.br/category/livros/wordpress/).
 
 ## Como acompanhar os exercícios do livro?
 
