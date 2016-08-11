@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-            <section>
+            <section class="screen-reader-text">
                 <div class="conteudo small-12 medium-8 large-8 column"> <!-- Conteúdo -->
                     <div class="post row"> <!-- Exibição de prévia do post -->
                         <div class="post-thumb small-12 medium-4 large-4 column">
