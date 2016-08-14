@@ -1,0 +1,245 @@
+/*
+Theme Name: Meu Blog
+Theme URI: http://giancarlosilva.com.br
+Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
+Author: Giancarlo Silva
+Author URI: http://giancarlosilva.com.br
+Version: 0.1.2 Alpha
+Tags: blue, white, two-columns, responsive
+
+License: GNU GPLv2
+License URI: https://wordpress.org/about/gpl/
+*/
+
+/* Tipografia */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #BFE6FF !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/*Container*/
+.container {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 150px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.busca {
+    position: relative;
+    top: 65px;
+    right: 8px;
+}
+
+/* Menu de navegação */
+.barra-menu {
+    background-color: #FFF;
+}
+
+.menu-navegacao {
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+/*.top-bar, .top-bar ul, .top-bar-left, .dropdown.menu, .menu li {
+    background-color: #BFE6FF;
+}*/
+
+/* Conteúdo - Posts e páginas */
+.conteudo {
+    border-right: 1px dotted #BFE6FF;
+    padding-top: 10px;
+    min-height: 600px;
+}
+
+.post, .widget {
+    margin-bottom: 10px;
+}
+
+.post-preview h1 {
+    color: #007DA6 !important;
+}
+
+.post-titulo h1, .pagina-titulo h1 {
+    font-size: 2.4rem !important;
+    color: #007DA6 !important;
+}
+
+.post-texto, .pagina-texto {
+    min-height: 500px;
+}
+
+.post-comentarios {
+    border-top: 1px dotted #BFE6FF;
+    min-height: 200px;
+}
+
+/* Conteúdo - classes do WordPress */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Conteúdo - código de acessibilidade para leitores de tela */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Barra lateral */
+.lateral {
+    min-height: 600px;
+}
+
+/* Rodapé */
+.rodape {
+    min-height: 50px;
+    background-color: #FFF;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.rodape-creditos {
+    border-top: 1px dotted #BFE6FF;
+    padding-top: 12px;
+}
