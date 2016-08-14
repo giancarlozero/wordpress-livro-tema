@@ -28,7 +28,19 @@
             <?php endif; ?>
             <div class="paginacao row">
                 <div class="small-12 small-centered medium-12 medium-centered large-12 large-centered text-center column">
-                    <!-- Paginação -->
+                    <!-- Paginação convencional -->
+                    <div class="nav-previous alignleft"><?php next_posts_link( 'Posts mais antigos' ); ?></div>
+                    <div class="nav-next alignright"><?php previous_posts_link( 'Posts mais recentes' ); ?></div>
+                    <!-- Paginação numerada. Caso prefira esta outra opção, descomente o código PHP abaixo e comente (ou apague) o código da Paginação convencional acima. -->
+                    <?php /*
+                    the_posts_pagination( array(
+                            'mid_size'  => 2,
+                            'prev_text' => __( 'Mais antigos', 'textdomain' ),
+                            'next_text' => __( 'Mais recentes', 'textdomain' ),
+                        )
+                    );
+                        */
+                    ?>
                 </div>
             </div>
         </div>
