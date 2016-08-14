@@ -1,42 +1,31 @@
 <?php get_header(); ?>
-            <section>
-                <div class="conteudo small-12 medium-8 large-8 column"> <!-- Conteúdo -->
+    <section>
+        <div class="conteudo small-12 medium-8 large-8 column"> <!-- Conteúdo -->
+            <?php if (have_posts()) : ?>
+                <?php while (have_posts()) : the_post(); ?>
                     <div class="post row"> <!-- Exibição de prévia do post -->
-                        <div class="post-thumb small-12 medium-4 large-4 column">
-                            <a href="#">
-                                <img src="http://placehold.it/600x450?text=Thumbnail">
-                            </a>
+                        <div class="post-thumb small-12 medium-5 large-5 column">
+                            <?php if ( has_post_thumbnail() ) : ?>
+                                <a href="<?php the_permalink(); ?>">
+                                    <?php the_post_thumbnail(); ?>
+                                </a>
+                            <?php endif; ?>
                         </div>
-                        <div class="post-preview small-12 medium-8 large-8 column">
-                            <a href="#"><h1>Lorem Ipsum</h1></a>
-                            <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
-                            <a class="small right button" href="#">Leia mais!</a>
+                        <div class="post-preview small-12 medium-7 large-7 column">
+                            <a href="<?php the_permalink(); ?>"><?php the_title('<h1>', '</h1>'); ?></a>
+                            <p><?php the_excerpt(); ?></p>
+                            <a class="small right button" href="<?php the_permalink() ?>">Leia mais!</a>
                         </div>
                     </div>
-                    <div class="post row"> <!-- Exibição de prévia do post -->
-                        <div class="post-thumb small-12 medium-4 large-4 column">
-                            <a href="#">
-                                <img src="http://placehold.it/600x450?text=Thumbnail">
-                            </a>
-                        </div>
-                        <div class="post-preview small-12 medium-8 large-8 column">
-                            <a href="#"><h1>Lorem Ipsum</h1></a>
-                            <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
-                            <a class="small right button" href="#">Leia mais!</a>
-                        </div>
-                    </div>
-                    <div class="post row"> <!-- Exibição de prévia do post -->
-                        <div class="post-thumb small-12 medium-4 large-4 column">
-                            <a href="#">
-                                <img src="http://placehold.it/600x450?text=Thumbnail">
-                            </a>
-                        </div>
-                        <div class="post-preview small-12 medium-8 large-8 column">
-                            <a href="#"><h1>Lorem Ipsum</h1></a>
-                            <p>Lorem ipsum Anim culpa cupidatat mollit aliqua Duis pariatur dolore anim velit elit qui qui proident fugiat enim.</p>
-                            <a class="small right button" href="#">Leia mais!</a>
-                        </div>
+                <?php endwhile; ?>
+            <?php else : ?>
+                <div class="post row"> <!-- 404 Not Found -->
+                    <div class="not-found small-12 medium-4 large-4 column">
+                        <h1>404 - Not Found</h1>
+                        <p>Post não encontrado.</p>
                     </div>
                 </div>
-            </section>
-        <?php get_sidebar(); ?>
+            <?php endif; ?>
+        </div>
+    </section>
+<?php get_sidebar(); ?>
