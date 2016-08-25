@@ -114,6 +114,7 @@ h6 {
 .post-comentarios {
     border-top: 1px dotted #BFE6FF;
     min-height: 200px;
+    overflow: hidden;
 }
 
 /* Conteúdo - classes do WordPress */
