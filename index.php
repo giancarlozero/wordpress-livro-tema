@@ -20,7 +20,7 @@
                 <?php endwhile; ?>
             <?php else : ?>
                 <div class="post row"> <!-- 404 Not Found -->
-                    <div class="not-found small-12 medium-4 large-4 column">
+                    <div class="not-found small-12 medium-12 large-12 column">
                         <h1>404 - Not Found</h1>
                         <p>Post não encontrado.</p>
                     </div>
