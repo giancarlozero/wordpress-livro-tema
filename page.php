@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <section>
-        <div class="conteudo small-12 medium-8 large-8 column"> <!-- Conteúdo -->
+        <div class="conteudo small-12 medium-12 large-12 column"> <!-- Conteúdo -->
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
                     <div class="pagina row">
