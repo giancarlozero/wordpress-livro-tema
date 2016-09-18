@@ -76,3 +76,25 @@ function custom_excerpt_length( $length ) {
     return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+/* Suporte a Widgets: Barra Lateral */
+register_sidebar( array(
+    'name'          => __( 'Widgets: Barra Lateral', 'meublog' ),
+    'id'            => 'widgets-barra-lateral',
+    'description'   => __( 'Adicione Widgets para exibí-los na Barra Lateral de seu site.', 'meublog' ),
+    'before_widget' => '<div class="conteudo-widget small-12 medium-12 large-12 column">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h1>',
+    'after_title'   => '</h1>',
+) );
+
+/* Suporte a Widgets: Rodapé */
+register_sidebar( array(
+    'name'          => __( 'Widgets: Rodapé', 'meublog' ),
+    'id'            => 'widgets-rodape',
+    'description'   => __( 'Adicione Widgets para exibí-los no Rodapé de seu site.', 'meublog' ),
+    'before_widget' => '<div class="small-4 small-centered medium-4 medium-centered large-4 large-centered left column">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h1>',
+    'after_title'   => '</h1>',
+) );

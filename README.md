@@ -24,6 +24,7 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 0.1.5 Alpha (18/09/2016)** - Arquivo sidebar.php e footer.php concluídos.
 * **Versão 0.1.4 Alpha (25/08/2016)** - Arquivos single.php, comments.php, page.php e 404.php concluídos.
 * **Versão 0.1.3 Alpha (14/08/2016)** - Arquivos index.php e archive.php concluídos.
 * **Versão 0.1.2 Alpha (28/07/2016)** - Menu concluído apenas para a parte Desktop. Falta consertar a versão mobile do menu.
