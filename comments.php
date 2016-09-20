@@ -7,7 +7,7 @@ if ( post_password_required() )
     <!-- Formulário de comentários -->
     <?php comment_form(); ?>
 
-    <!-- Exibição de comentários -->
+    <!-- Início do loop de exibição de comentários -->
     <?php if ( have_comments() ) : ?>
         <h3 class="titulo-comentario">
             <?php printf( _nx( 'Um comentário sobre "%2$s"', '%1$s comentários sobre "%2$s"', get_comments_number(), 'comments title', 'meublog' ), number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' ); ?>
