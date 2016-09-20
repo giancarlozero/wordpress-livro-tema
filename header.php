@@ -43,10 +43,11 @@
                         meublog_the_custom_logo();
                     ?>
                 </div>
+                <!-- Formulário de busca -->
                 <div class="busca small-centered medium-5 large-5 right column show-for-medium-up">
                     <div class="row collapse">
                         <div class="small-10 columns">
-                        <input type="text" placeholder="Busca">
+                            <input type="text" placeholder="Busca">
                         </div>
                         <div class="small-2 columns">
                             <a href="#" class="button postfix">Buscar</a>
