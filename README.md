@@ -24,6 +24,7 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 0.1.5.2 Alpha (19/09/2016)** - Template Tags faltantes adicionadas aos arquivos page.php, comments.php e 404.php.
 * **Versão 0.1.5.1 Alpha (18/09/2016)** - Arquivo comments.php corrigido. Exibição de comentários implementada.
 * **Versão 0.1.5 Alpha (18/09/2016)** - Arquivos sidebar.php e footer.php concluídos.
 * **Versão 0.1.4 Alpha (25/08/2016)** - Arquivos single.php, comments.php, page.php e 404.php concluídos.
