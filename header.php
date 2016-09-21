@@ -45,14 +45,7 @@
                 </div>
                 <!-- Formulário de busca -->
                 <div class="busca small-centered medium-5 large-5 right column show-for-medium-up">
-                    <div class="row collapse">
-                        <div class="small-10 columns">
-                            <input type="text" placeholder="Busca">
-                        </div>
-                        <div class="small-2 columns">
-                            <a href="#" class="button postfix">Buscar</a>
-                        </div>
-                    </div>
+                    <?php get_search_form(); ?>
                 </div>
                 <!-- Menu de navegação -->
                 <div class="barra-menu small-12 medium-12 large-12 column">

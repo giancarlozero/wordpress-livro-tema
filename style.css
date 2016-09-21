@@ -4,7 +4,7 @@ Theme URI: http://giancarlosilva.com.br
 Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
 Author: Giancarlo Silva
 Author URI: http://giancarlosilva.com.br
-Version: 0.1.5.2 Alpha
+Version: 0.1.6 Alpha
 Tags: blue, white, two-columns, responsive
 
 License: GNU GPLv2
@@ -116,6 +116,18 @@ h6 {
     border-top: 1px dotted #BFE6FF;
     min-height: 200px;
     overflow: hidden;
+}
+
+/* Conteúdo - Paginação de resultados de busca */
+.busca-paginacao {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.next, .prev, .page-numbers {
+    font-size: 20px;
+    border: 1px solid #51AECF;
+    padding: 5px;
 }
 
 /* Conteúdo - classes do WordPress */
