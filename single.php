@@ -8,8 +8,14 @@
                             <a href="<?php the_permalink(); ?>"><?php the_title('<h1>', '</h1>'); ?></a>
                             <p><?php the_time('j \d\e F \d\e Y'); ?> - <a href="#">Escrito por <?php the_author_posts_link(); ?></a> - <a href="#"><?php comments_popup_link('Nenhum comentário', '1 comentário', '% comentários', 'comments-link', ''); ?></a></p>
                         </div>
+                        <div class="post-categorias small-12 medium-12 large-12 column">
+                            <p><b>Categorias: <?php the_category(', '); ?></b></p>
+                        </div>
                         <div class="post-texto small-12 medium-12 large-12 column">
                             <?php the_content(); ?>
+                        </div>
+                        <div class="post-tags small-12 medium-12 large-12 column">
+                            <?php the_tags('Tags: ' , ', '); ?>
                         </div>
                         <div class="post-comentarios small-12 medium-12 large-12 column">
                             <?php comments_template(); ?>
