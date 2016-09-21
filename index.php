@@ -7,7 +7,7 @@
                         <div class="post-thumb small-12 medium-5 large-5 column">
                             <?php if ( has_post_thumbnail() ) : ?>
                                 <a href="<?php the_permalink(); ?>">
-                                    <?php the_post_thumbnail(); ?>
+                                    <?php the_post_thumbnail('thumbnail-index'); ?>
                                 </a>
                             <?php endif; ?>
                         </div>

@@ -70,6 +70,7 @@ add_action('wp_enqueue_scripts', 'foundation_load_scripts');
 /* Suporte a imagens destacadas */
 add_theme_support( 'post-thumbnails' );
 set_post_thumbnail_size( 600, 450, array('center', 'center') );
+add_image_size( 'thumbnail-index', 600, 450 );
 
 /* Tamanho dos excertos */
 function custom_excerpt_length( $length ) {
