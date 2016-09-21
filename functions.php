@@ -93,7 +93,7 @@ register_sidebar( array(
     'name'          => __( 'Widgets: Rodapé', 'meublog' ),
     'id'            => 'widgets-rodape',
     'description'   => __( 'Adicione Widgets para exibí-los no Rodapé de seu site.', 'meublog' ),
-    'before_widget' => '<div class="small-4 small-centered medium-4 medium-centered large-4 large-centered left column">',
+    'before_widget' => '<div class="small-12 small-centered medium-4 medium-centered large-4 large-centered left column">',
     'after_widget'  => '</div>',
     'before_title'  => '<h1>',
     'after_title'   => '</h1>',
