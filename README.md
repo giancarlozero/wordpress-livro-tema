@@ -24,6 +24,7 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 0.2.0 Beta (21/09/2016)** - Primeira parte da depuração finalizada. Início do Beta Test público.
 * **Versão 0.1.7 Alpha (21/09/2016)** - Captura de tela (screenshot.png) adicionada. Definição das Imagens Destacadas no functions.php corrigida. Exibição das categorias e tags implementada.
 * **Versão 0.1.6 Alpha (21/09/2016)** - Arquivos search.php e searchform.php concluídos. Tema pronto para depuração do código.
 * **Versão 0.1.5.2 Alpha (19/09/2016)** - Template Tags faltantes adicionadas aos arquivos page.php, comments.php e 404.php.
