@@ -3,7 +3,7 @@
         <div class="conteudo small-12 medium-12 large-12 column"> <!-- Conteúdo -->
             <div class="row"> <!-- Consulta ao banco de dados com WP_Query -->
                 <div class="small-12 medium-12 large-12 column">
-                    <p><?php $mySearch = new WP_Query("s=$s & showposts=20"); $num = $mySearch->post_count; echo $num.' resultado(s) de pesquisa para o termo "'; the_search_query();?>" em <?php  get_num_queries(); ?> <?php timer_stop(1); ?> segundos.</p>
+                    <p><?php $mySearch = new WP_Query("s=$s & showposts=9999"); $num = $mySearch->post_count; echo $num.' resultado(s) de pesquisa para o termo "'; the_search_query();?>" em <?php  get_num_queries(); ?> <?php timer_stop(1); ?> segundos.</p>
                 </div>
             </div>
             <?php if (have_posts()) : ?>
