@@ -8,11 +8,11 @@ Tema em desenvolvimento por [**Giancarlo Silva**](http://giancarlosilva.com.br).
 
 ## Como acompanhar os exercícios do livro?
 
-Cada capítulo da parte III do livro acompanha diversos exemplos em código. Além de ler o código nesses trechos do livro, você também poderá acessar o tema completo na raiz desse repositório ou acessar a pasta [*/livro*](https://github.com/giancarlozero/wordpress-livro-tema/tree/master/livro), que contém várias outras pastas chamadas */passo_01*, */passo_02*, */passo_03*, etc.
+Cada capítulo da parte III do livro acompanha diversos exemplos em código. Além de ler o código nesses trechos do livro, você também poderá acessar o tema completo na branch *master* desse repositório ou acessar a branch [*livro*](https://github.com/giancarlozero/wordpress-livro-tema/tree/livro), que contém várias outras pastas chamadas */passo_01*, */passo_02*, */passo_03*, etc.
 
 Cada uma dessas pastas mostrará somente o código relativo a seu respectivo capítulo, para que o(a) leitor(a) possa acompanhar melhor o progresso da criação deste tema.
 
-**OBS.:** Até o final do desenvolvimento deste tema, esta estrutura de pastas pode ser modificada sem prévio aviso.
+**OBS.:** Até o lançamento do livro, esta estrutura de branches/pastas pode ser modificada sem prévio aviso.
 
 ## Licença
 
