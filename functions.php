@@ -21,9 +21,9 @@ function custom_logo_setup() {
 }
 add_action( 'after_setup_theme', 'custom_logo_setup' );
 
+/* Adicionar suporte a menus personalizados no Tema */
 add_theme_support('menus');
 
-/* Adicionar suporte a menus personalizados no Tema */
 function register_my_menu(){
     register_nav_menu('header-menu', __('Menu do Cabeçalho'));
 }
@@ -69,8 +69,8 @@ add_action('wp_enqueue_scripts', 'foundation_load_scripts');
 
 /* Suporte a imagens destacadas */
 add_theme_support( 'post-thumbnails' );
-set_post_thumbnail_size( 600, 450, array('center', 'center') );
-add_image_size( 'thumbnail-index', 600, 450 );
+set_post_thumbnail_size( 600, 450 );
+add_image_size( 'thumbnail-index', 600, 450 , array('center', 'center') );
 
 /* Tamanho dos excertos */
 function custom_excerpt_length( $length ) {

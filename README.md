@@ -1,10 +1,13 @@
 # WordPress: de blogs pessoais a grandes portais - Tema para WordPress
 
-Tema simples de duas colunas construído com base no Foundation Framework.
+Tema responsivo simples de duas colunas construído com base no Foundation Framework. Em desenvolvimento por [**Giancarlo Silva**](http://giancarlosilva.com.br).
 
-Este tema será utilizado como material de estudo para uso em conjunto com o livro **WordPress: de blogs pessoais a grandes portais**. Ele também poderá ser usado como um tema comum em uma instalação do WordPress, tendo todas as funcionalidades mais básicas perfeitamente funcionais.
+Este tema será utilizado como material de estudo para uso em conjunto com o livro [**WordPress: de blogs pessoais a grandes portais**](https://www.amazon.com.br/dp/B072J3WVPK/). Ele também poderá ser usado como um tema comum em uma instalação do WordPress, tendo todas as funcionalidades mais básicas perfeitamente funcionais.
 
-Tema em desenvolvimento por [**Giancarlo Silva**](http://giancarlosilva.com.br). Informações sobre o livro podem ser encontradas [**neste link**](http://giancarlosilva.com.br/category/livros/wordpress/).
+Adquira meu livro durante a pré-venda [**pelo preço promocional de R$ 19,90**](https://www.amazon.com.br/dp/B072J3WVPK/)! Mais informações nos links abaixo:
+
+- **Sobre a pré-venda**: [https://giancarlosilva.com.br/2017/05/18/livro-wordpress-pre-venda/](https://giancarlosilva.com.br/2017/05/18/livro-wordpress-pre-venda/)
+- **Informações gerais sobre o livro:** [http://giancarlosilva.com.br/category/livros/wordpress/](http://giancarlosilva.com.br/category/livros/wordpress/).
 
 ## Como acompanhar os exercícios do livro?
 
@@ -18,12 +21,13 @@ Cada uma dessas pastas mostrará somente o código relativo a seu respectivo cap
 
 Este tema para WordPress está sendo distribuído gratuitamente sob a *2ª versão da licença GNU General Public License (GNU GPLv2)*, o que significa que você poderá alterar, personalizar e redistribuir o tema como desejar, desde que respeite os termos desta licença, que pode ser lida [a partir deste link](https://wordpress.org/about/gpl/).
 
-**Você não é obrigado a comprar o meu livro** para utilizar este tema.
+**Você não é obrigado a comprar o meu livro** para utilizar este tema (mas agradeço demais [se você o comprar](https://www.amazon.com.br/dp/B072J3WVPK/), é claro!).
 
 Este repositório é o único lugar oficial de onde este tema pode ser baixado. Se você baixou este tema de qualquer outro lugar, examine o código-fonte com cuidado, comparando-o com o deste repositório se necessário. Se essa outra fonte do download cobrou dinheiro de você, desconfie de intenções maliciosas e tente obter seu dinheiro de volta.
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 0.2.1 Beta (16/06/2017)** - Correção na geração de thumbnails na home do tema.
 * **Versão 0.2.0 Beta (21/09/2016)** - Primeira parte da depuração finalizada. Início do Beta Test público.
 * **Versão 0.1.7 Alpha (21/09/2016)** - Captura de tela (screenshot.png) adicionada. Definição das Imagens Destacadas no functions.php corrigida. Exibição das categorias e tags implementada.
 * **Versão 0.1.6 Alpha (21/09/2016)** - Arquivos search.php e searchform.php concluídos. Menu corrigido em todos os tamanhos de tela. Tema pronto para depuração do código.
