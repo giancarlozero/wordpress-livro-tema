@@ -4,7 +4,7 @@ Theme URI: https://github.com/giancarlozero/wordpress-livro-tema
 Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
 Author: Giancarlo Silva
 Author URI: http://giancarlosilva.com.br
-Version: 0.2.1 Beta
+Version: 1.0.0
 Tags: blue, white, two-columns, responsive
 
 License: GNU GPLv2
@@ -111,11 +111,92 @@ h6 {
     min-height: 500px;
 }
 
-/* Conteúdo - comentários */
+/* Conteúdo - Comentários */
 .post-comentarios {
     border-top: 1px dotted #BFE6FF;
     min-height: 200px;
     overflow: hidden;
+}
+
+.form-comentarios .lista-comentarios {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+    text-indent: 0;
+}
+
+.form-comentarios .lista-comentarios li.comment .comment-author {
+    width: 100%;
+    border: none;
+    background-color: #BFE6FF;
+    color: #333;
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment .comment-author a {
+    color: #888;
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment .comment-author a:hover, .form-comentarios .lista-comentarios li.comment .comment-author a:active, .form-comentarios .lista-comentarios li.comment .comment-author a:focus {
+    color: #333;
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment div.vcard {
+    font-weight: 14px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.reply {
+    padding-bottom: 1rem;
+}
+
+.form-comentarios .lista-comentarios li.comment div.vcard cite.fn {
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment div.vcard img.avatar {
+    border: 5px solid #fff;
+    float: left;
+    margin-right: 10px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.comment-meta {
+    position: relative;
+    bottom: 80px;
+    left: 98px;
+    font-size: 12px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.comment-meta a {
+    color: #333;
+}
+
+.form-comentarios .lista-comentarios li.comment div.comment-meta a:hover, .form-comentarios .lista-comentarios li.comment div.comment-meta a:active, .form-comentarios .lista-comentarios li.comment div.comment-meta a:focus {
+    color: #888;
+}
+
+.form-comentarios .lista-comentarios li.comment p {
+    font-size: 15px;
+}
+
+.form-comentarios .lista-comentarios li.comment ul {
+    font-size: 15px;
+    list-style: none;
+    margin: 0 0 0 20px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.reply {
+    font-size: 15px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.reply a {
+    font-weight: bold;
+}
+
+.form-comentarios .lista-comentarios li.comment ul.children {
+    list-style: none;
+    text-indent: 0;
 }
 
 /* Conteúdo - Paginação de resultados de busca */
@@ -264,3 +345,5 @@ a img.aligncenter {
     padding-bottom: 12px;
     overflow: hidden;
 }
+
+

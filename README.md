@@ -1,21 +1,16 @@
 # WordPress: de blogs pessoais a grandes portais - Tema para WordPress
 
-Tema responsivo simples de duas colunas construído com base no Foundation Framework. Em desenvolvimento por [**Giancarlo Silva**](http://giancarlosilva.com.br).
+Tema responsivo simples de duas colunas construído com base no Foundation Framework. Desenvolvido por [**Giancarlo Silva**](https://giancarlosilva.com.br).
 
 Este tema será utilizado como material de estudo para uso em conjunto com o livro [**WordPress: de blogs pessoais a grandes portais**](https://www.amazon.com.br/dp/B072J3WVPK/). Ele também poderá ser usado como um tema comum em uma instalação do WordPress, tendo todas as funcionalidades mais básicas perfeitamente funcionais.
 
-Adquira meu livro durante a pré-venda [**pelo preço promocional de R$ 19,90**](https://www.amazon.com.br/dp/B072J3WVPK/)! Mais informações nos links abaixo:
-
-- **Sobre a pré-venda**: [https://giancarlosilva.com.br/2017/05/18/livro-wordpress-pre-venda/](https://giancarlosilva.com.br/2017/05/18/livro-wordpress-pre-venda/)
-- **Informações gerais sobre o livro:** [http://giancarlosilva.com.br/category/livros/wordpress/](http://giancarlosilva.com.br/category/livros/wordpress/).
+Adquira meu livro [**por apenas R$ 34,90**](https://www.amazon.com.br/dp/B072J3WVPK/)! Mais informações em [**giancarlosilva.com.br/livro-wordpress**](https://giancarlosilva.com.br/livro-wordpress/).
 
 ## Como acompanhar os exercícios do livro?
 
-Cada capítulo da parte III do livro acompanha diversos exemplos em código. Além de ler o código nesses trechos do livro, você também poderá acessar o tema completo na branch *master* desse repositório ou acessar a branch [*livro*](https://github.com/giancarlozero/wordpress-livro-tema/tree/livro), que contém várias outras pastas chamadas */passo_01*, */passo_02*, */passo_03*, etc.
+Cada capítulo da parte III do livro acompanha diversos exemplos em código. Além de ler o código nesses trechos do livro, você também poderá acessar o tema completo na branch [*master*](https://github.com/giancarlozero/wordpress-livro-tema) desse repositório ou acessar a branch [*livro*](https://github.com/giancarlozero/wordpress-livro-tema/tree/livro), que contém várias outras pastas chamadas */passo_01*, */passo_02*, */passo_03*, etc.
 
 Cada uma dessas pastas mostrará somente o código relativo a seu respectivo capítulo, para que o(a) leitor(a) possa acompanhar melhor o progresso da criação deste tema.
-
-**OBS.:** Até o lançamento do livro, esta estrutura de branches/pastas pode ser modificada sem prévio aviso.
 
 ## Licença
 
@@ -27,6 +22,8 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
+
+* **Versão 1.0.0 (28/07/2017)** - CSS da exibição de comentários adicionado. Fim dos testes. Primeira versão final do tema.
 * **Versão 0.2.1 Beta (16/06/2017)** - Correção na geração de thumbnails na home do tema.
 * **Versão 0.2.0 Beta (21/09/2016)** - Primeira parte da depuração finalizada. Início do Beta Test público.
 * **Versão 0.1.7 Alpha (21/09/2016)** - Captura de tela (screenshot.png) adicionada. Definição das Imagens Destacadas no functions.php corrigida. Exibição das categorias e tags implementada.
