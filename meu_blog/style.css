@@ -1,0 +1,349 @@
+/*
+Theme Name: Meu Blog
+Theme URI: https://github.com/giancarlozero/wordpress-livro-tema
+Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
+Author: Giancarlo Silva
+Author URI: http://giancarlosilva.com.br
+Version: 1.0.0
+Tags: blue, white, two-columns, responsive
+
+License: GNU GPLv2
+License URI: https://wordpress.org/about/gpl/
+*/
+
+/* Tipografia */
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #BFE6FF !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif !important;
+}
+
+h1 {
+    font-size: 1.5rem !important;
+}
+
+h2 {
+    font-size: 1.4rem !important;
+}
+
+h3 {
+    font-size: 1.3rem !important;
+}
+
+h4 {
+    font-size: 1.2rem !important;
+}
+
+h5 {
+    font-size: 1.1rem !important;
+}
+
+h6 {
+    font-size: 1rem !important;
+}
+
+/*Container*/
+.container {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 150px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.busca {
+    position: relative;
+    top: 65px;
+    right: 8px;
+}
+
+/* Menu de navegação */
+.barra-menu {
+    background-color: #FFF;
+}
+
+.menu-navegacao {
+    position: relative;
+    z-index: 10;
+}
+
+/*.top-bar, .top-bar ul, .top-bar-left, .dropdown.menu, .menu li {
+    background-color: #BFE6FF;
+}*/
+
+/* Conteúdo - Posts e páginas */
+.conteudo {
+    border-right: 1px dotted #BFE6FF;
+    padding-top: 10px;
+    min-height: 600px;
+}
+
+.post, .widget {
+    margin-bottom: 10px;
+}
+
+.post-preview h1 {
+    color: #007DA6 !important;
+}
+
+.post-titulo h1, .pagina-titulo h1 {
+    font-size: 2.4rem !important;
+    color: #007DA6 !important;
+}
+
+.post-texto, .pagina-texto {
+    min-height: 500px;
+}
+
+/* Conteúdo - Comentários */
+.post-comentarios {
+    border-top: 1px dotted #BFE6FF;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.form-comentarios .lista-comentarios {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0;
+    text-indent: 0;
+}
+
+.form-comentarios .lista-comentarios li.comment .comment-author {
+    width: 100%;
+    border: none;
+    background-color: #BFE6FF;
+    color: #333;
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment .comment-author a {
+    color: #888;
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment .comment-author a:hover, .form-comentarios .lista-comentarios li.comment .comment-author a:active, .form-comentarios .lista-comentarios li.comment .comment-author a:focus {
+    color: #333;
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment div.vcard {
+    font-weight: 14px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.reply {
+    padding-bottom: 1rem;
+}
+
+.form-comentarios .lista-comentarios li.comment div.vcard cite.fn {
+    font-style: normal;
+}
+
+.form-comentarios .lista-comentarios li.comment div.vcard img.avatar {
+    border: 5px solid #fff;
+    float: left;
+    margin-right: 10px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.comment-meta {
+    position: relative;
+    bottom: 80px;
+    left: 98px;
+    font-size: 12px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.comment-meta a {
+    color: #333;
+}
+
+.form-comentarios .lista-comentarios li.comment div.comment-meta a:hover, .form-comentarios .lista-comentarios li.comment div.comment-meta a:active, .form-comentarios .lista-comentarios li.comment div.comment-meta a:focus {
+    color: #888;
+}
+
+.form-comentarios .lista-comentarios li.comment p {
+    font-size: 15px;
+}
+
+.form-comentarios .lista-comentarios li.comment ul {
+    font-size: 15px;
+    list-style: none;
+    margin: 0 0 0 20px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.reply {
+    font-size: 15px;
+}
+
+.form-comentarios .lista-comentarios li.comment div.reply a {
+    font-weight: bold;
+}
+
+.form-comentarios .lista-comentarios li.comment ul.children {
+    list-style: none;
+    text-indent: 0;
+}
+
+/* Conteúdo - Paginação de resultados de busca */
+.busca-paginacao {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.next, .prev, .page-numbers {
+    font-size: 20px;
+    border: 1px solid #51AECF;
+    padding: 5px;
+}
+
+/* Conteúdo - classes do WordPress */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Conteúdo - código de acessibilidade para leitores de tela */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Barra lateral */
+.lateral {
+    min-height: 600px;
+}
+
+.conteudo-widget {
+    min-height: 175px;
+    overflow: hidden;
+}
+
+/* Rodapé */
+.rodape {
+    min-height: 50px;
+    background-color: #FFF;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.rodape-widgets, .rodape-creditos {
+    border-top: 1px dotted #BFE6FF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    overflow: hidden;
+}
+
+
