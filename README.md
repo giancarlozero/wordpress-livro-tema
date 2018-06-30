@@ -24,6 +24,9 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 1.0.1 (30/06/2018)** - CSS gerado pelo WordPress atualizado no tema.
+* **Versão 1.0.0 (28/07/2017)** - CSS da exibição de comentários adicionado. Fim dos testes. Primeira versão final do tema.
+* **Versão 0.2.1 Beta (16/06/2017)** - Correção na geração de thumbnails na home do tema.
 * **Versão 0.2.0 Beta (21/09/2016)** - Primeira parte da depuração finalizada. Início do Beta Test público.
 * **Versão 0.1.7 Alpha (21/09/2016)** - Captura de tela (screenshot.png) adicionada. Definição das Imagens Destacadas no functions.php corrigida. Exibição das categorias e tags implementada.
 * **Versão 0.1.6 Alpha (21/09/2016)** - Arquivos search.php e searchform.php concluídos. Menu corrigido em todos os tamanhos de tela. Tema pronto para depuração do código.
