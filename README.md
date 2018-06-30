@@ -1,6 +1,6 @@
 # WordPress: de blogs pessoais a grandes portais - Tema para WordPress
 
-Tema responsivo simples de duas colunas construído com base no Foundation Framework. Desenvolvido por [**Giancarlo Silva**](https://giancarlosilva.com.br).
+Tema responsivo simples de duas colunas construído com base no [Foundation Framework](https://foundation.zurb.com/sites/docs/v/5.5.3/). Desenvolvido por [**Giancarlo Silva**](https://giancarlosilva.com.br).
 
 Este tema será utilizado como material de estudo para uso em conjunto com o livro [**WordPress: de blogs pessoais a grandes portais**](https://www.amazon.com.br/dp/B072J3WVPK/). Ele também poderá ser usado como um tema comum em uma instalação do WordPress, tendo todas as funcionalidades mais básicas perfeitamente funcionais.
 
@@ -22,7 +22,7 @@ Este repositório é o único lugar oficial de onde este tema pode ser baixado. 
 
 ## Histórico de mudanças/Change log:
 
-
+* **Versão 1.0.1 (30/06/2018)** - CSS gerado pelo WordPress atualizado no tema.
 * **Versão 1.0.0 (28/07/2017)** - CSS da exibição de comentários adicionado. Fim dos testes. Primeira versão final do tema.
 * **Versão 0.2.1 Beta (16/06/2017)** - Correção na geração de thumbnails na home do tema.
 * **Versão 0.2.0 Beta (21/09/2016)** - Primeira parte da depuração finalizada. Início do Beta Test público.
