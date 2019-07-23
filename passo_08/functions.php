@@ -12,7 +12,7 @@ function wp_title_for_home( $title )
 }
 
 /* Logo personalizado */
-function custom_logo_setup() {    
+function custom_logo_setup() {
     add_theme_support( 'custom-logo', array(
         'height'      => 150, // Altura do logotipo
         'width'       => 350, // Largura do logotipo
@@ -21,9 +21,9 @@ function custom_logo_setup() {
 }
 add_action( 'after_setup_theme', 'custom_logo_setup' );
 
+/* Adicionar suporte a menus personalizados no Tema */
 add_theme_support('menus');
 
-/* Adicionar suporte a menus personalizados no Tema */
 function register_my_menu(){
     register_nav_menu('header-menu', __('Menu do Cabeçalho'));
 }
@@ -37,7 +37,7 @@ function foundation_nav_menu_classes($classes, $item){
     if (in_array("menu-item-has-children", $classes)){
         array_push($classes, "has-dropdown not-click");
     }
-    
+
     return $classes;
 }
 
@@ -69,7 +69,8 @@ add_action('wp_enqueue_scripts', 'foundation_load_scripts');
 
 /* Suporte a imagens destacadas */
 add_theme_support( 'post-thumbnails' );
-set_post_thumbnail_size( 600, 450, array('center', 'center') );
+set_post_thumbnail_size( 600, 450 );
+add_image_size( 'thumbnail-index', 600, 450 , array('center', 'center') );
 
 /* Tamanho dos excertos */
 function custom_excerpt_length( $length ) {
