@@ -17,7 +17,7 @@
 
         <!-- CSS do Foundation Framework -->
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/foundation.min.css" />
-        
+
         <!-- Biblioteca JavaScript Modernizr (dependência do Foundation) -->
         <script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr.js"></script>
 

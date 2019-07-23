@@ -12,7 +12,7 @@ function wp_title_for_home( $title )
 }
 
 /* Logo personalizado */
-function custom_logo_setup() {    
+function custom_logo_setup() {
     add_theme_support( 'custom-logo', array(
         'height'      => 150, // Altura do logotipo
         'width'       => 350, // Largura do logotipo
@@ -37,7 +37,7 @@ function foundation_nav_menu_classes($classes, $item){
     if (in_array("menu-item-has-children", $classes)){
         array_push($classes, "has-dropdown not-click");
     }
-    
+
     return $classes;
 }
 
