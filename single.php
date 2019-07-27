@@ -12,7 +12,18 @@
                             <p><b>Categorias: <?php the_category(', '); ?></b></p>
                         </div>
                         <div class="post-texto small-12 medium-12 large-12 column">
-                            <?php the_content(); ?>
+                            <?php
+                                // Conteúdo
+                                the_content();
+
+                                // Gutenberg - Paginação de conteúdo
+                                wp_link_pages(
+                                    array(
+                                        'before' => '<div class="page-links">' . __( 'Páginas:', 'meu-blog' ),
+                                        'after'  => '</div>',
+                                    )
+                                );
+                            ?>
                         </div>
                         <div class="post-tags small-12 medium-12 large-12 column">
                             <?php the_tags('Tags: ' , ', '); ?>

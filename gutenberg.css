@@ -1,0 +1,187 @@
+/* Classes CSS e estrutura de HTML geradas pelo editor Gutenberg */
+
+/* => Blocos comuns */
+/* - Imagem */
+figure.wp-block-image figcaption {
+    background-color: #0082d3;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+/* - Imagem alinhada à esquerda */
+div.wp-block-image figure.alignleft figcaption {
+    background-color: #0082d3;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+/* - Imagem alinhada à direita */
+div.wp-block-image figure.alignright figcaption {
+    background-color: #0082d3;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+/* - Citação */
+blockquote.wp-block-quote {
+    background-color: #ebf7ff;
+    border-left: 2px solid #bfe6ff;
+}
+blockquote.wp-block-quote cite {
+    padding-bottom: 0.5rem;
+}
+
+/* - Áudio */
+figure.wp-block-audio figcaption {
+    background-color: #0082d3;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+/* - Vídeo */
+figure.wp-block-video figcaption {
+    background-color: #0082d3;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+/* - Arquivo para download */
+div.wp-block-file {
+    background-color: #ebf7ff;
+    border: 2px solid #bfe6ff;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+div.wp-block-file a.wp-block-file__button {
+    /* Botão de download */
+    background-color: #43b4ff;
+    color: #fff;
+}
+
+/* => Blocos de formatação */
+/* - Código */
+pre.wp-block-code {
+    background-color: #ebf7ff;
+    border: 2px solid #bfe6ff;
+    border-radius: 5px;
+    padding: 1rem;
+    white-space: pre-wrap;
+    tab-size: 4;
+    counter-reset: line;
+}
+pre.wp-block-code code {
+    background-color: #ebf7ff;
+    border: 0px;
+}
+
+/* - Texto preformatado */
+pre.wp-block-preformatted {
+    background-color: #ebf7ff;
+    border: 2px solid #bfe6ff;
+    border-radius: 5px;
+    padding: 1rem;
+    white-space: pre-wrap;
+    tab-size: 4;
+}
+
+/* - Citação estilizada */
+figure.wp-block-pullquote {
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    border-top: 4px solid #0082d3;
+    border-bottom: 4px solid #0082d3;
+}
+figure.wp-block-pullquote blockquote {
+    border-left: none;
+}
+figure.wp-block-pullquote blockquote p {
+    color: #0082d3;
+}
+figure.wp-block-pullquote blockquote cite {
+    color: #0082d3;
+    padding-bottom: 0.5rem;
+}
+
+/* - Tabela */
+table.wp-block-table {
+    width: 100%;
+}
+
+/* - Verso */
+pre.wp-block-verse {
+    border-top: 4px solid #0082d3;
+    border-bottom: 4px solid #0082d3;
+    padding: 1.5rem;
+    white-space: pre-wrap;
+}
+
+/* => Blocos de elementos de layout */
+/* - Imagem & Texto */
+div.wp-block-media-text {
+    border-top: 4px solid #0082d3;
+    border-bottom: 4px solid #0082d3;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* - Quebra de página */
+div.page-links {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+div.page-links span.post-page-numbers {
+    border: 2px solid #0082d3;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+div.page-links a.post-page-numbers {
+    border: 2px solid #0082d3;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+div.page-links span.post-page-numbers.current {
+    background: #0082d3;
+    color: #fff;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+/* - Comentários recentes */
+ol.wp-block-latest-comments {
+    background: #bfe6ff;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+}
+ol.wp-block-latest-comments.has-avatars.has-dates.has-excerpts li.wp-block-latest-comments__comment article {
+    padding-bottom: 0.5rem;
+}
+ol.wp-block-latest-comments.has-avatars.has-dates.has-excerpts li.wp-block-latest-comments__comment article div.wp-block-latest-comments__comment-excerpt {
+    min-height: 50px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background: #ebf7ff;
+}
+
+/* - Nuvem de tags */
+p.wp-block-tag-cloud {
+    background-color: #ebf7ff;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+/* => Blocos de códigos incorporados */
+/* - Código incorporado padrão */
+figure.wp-block-embed figcaption {
+    background-color: #0082d3;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+/* - Código incorporado para o YouTube. Mais informações sobre esse tipo de bloco no livro. */
+figure.wp-block-embed-youtube figcaption {
+    background-color: #f00;
+    padding: 0.5rem;
+    color: #fff;
+}

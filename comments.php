@@ -15,7 +15,7 @@ if ( post_password_required() )
 
         <!-- Listagem de comentários: ao invés de 'ul', você pode optar por utilizar 'ol' ou 'div' neste bloco de código e também no parâmetro 'style', em 'wp_list_comments().' -->
         <ul class="lista-comentarios">
-            <?php 
+            <?php
                 wp_list_comments( array(
                     'style'       => 'ul',
                     'short_ping'  => true,

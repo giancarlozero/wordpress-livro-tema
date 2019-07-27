@@ -8,7 +8,18 @@
                             <a href="<?php the_permalink(); ?>"><?php the_title('<h1>', '</h1>'); ?></a>
                         </div>
                         <div class="pagina-texto small-12 medium-12 large-12 column">
-                            <?php the_content(); ?>
+                            <?php
+                                // Conteúdo
+                                the_content();
+
+                                // Gutenberg - Paginação de conteúdo
+                                wp_link_pages(
+                                    array(
+                                        'before' => '<div class="page-links">' . __( 'Páginas:', 'meu-blog' ),
+                                        'after'  => '</div>',
+                                    )
+                                );
+                            ?>
                         </div>
                     </div>
                 <?php endwhile; ?>

@@ -12,7 +12,7 @@ function wp_title_for_home( $title )
 }
 
 /* Logo personalizado */
-function custom_logo_setup() {    
+function custom_logo_setup() {
     add_theme_support( 'custom-logo', array(
         'height'      => 150, // Altura do logotipo
         'width'       => 350, // Largura do logotipo
@@ -37,7 +37,7 @@ function foundation_nav_menu_classes($classes, $item){
     if (in_array("menu-item-has-children", $classes)){
         array_push($classes, "has-dropdown not-click");
     }
-    
+
     return $classes;
 }
 
@@ -99,3 +99,14 @@ register_sidebar( array(
     'before_title'  => '<h1>',
     'after_title'   => '</h1>',
 ) );
+
+/* Gutenberg - Compatibilidade */
+function meu_blog_gutenberg_setup() {
+    // - Estilos CSS padrão do editor para o Painel de Controle, renderizados no frontend do tema. Use somente se você não quiser usar seu próprio código CSS.
+    // add_theme_support( 'wp-block-styles' );
+
+    // - Bloco Código incorporado: Vídeos responsivos
+    add_theme_support( 'responsive-embeds' );
+}
+
+add_action( 'after_setup_theme', 'meu_blog_gutenberg_setup' );

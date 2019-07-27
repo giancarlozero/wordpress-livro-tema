@@ -15,9 +15,12 @@
         <!-- CSS do Tema -->
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
 
+        <!-- CSS do Gutenberg -->
+        <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/gutenberg.css" />
+
         <!-- CSS do Foundation Framework -->
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/foundation.min.css" />
-        
+
         <!-- Biblioteca JavaScript Modernizr (dependência do Foundation) -->
         <script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr.js"></script>
 
@@ -27,6 +30,9 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
+
+        <?php wp_body_open(); ?>
+
         <div class="container row">
             <!-- Cabeçalho -->
             <header>
