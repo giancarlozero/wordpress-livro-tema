@@ -1,19 +1,19 @@
 WordPress: de blogs pessoais a grandes portais - Tema para WordPress
 --------------------------------------------------------------------
 
-Tema simples de duas colunas construÌdo com base no Foundation Framework.
+Tema simples de duas colunas constru√≠do com base no Foundation Framework.
 
-Este tema ser· utilizado como material de estudo para uso em conjunto com o livro "WordPress: de blogs pessoais a grandes portais".
+Este tema ser√° utilizado como material de estudo para uso em conjunto com o livro "WordPress: de blogs pessoais a grandes portais".
 
-Tema em desenvolvimento por Giancarlo Silva. InformaÁıes sobre o livro podem ser encontradas em http://giancarlosilva.com.br/category/livros/wordpress/.
+Tema em desenvolvimento por Giancarlo Silva. Informa√ß√µes sobre o livro podem ser encontradas em http://giancarlosilva.com.br/category/livros/wordpress/.
 
-Mais informaÁıes sobre este tema (histÛrico de mudanÁas, licenÁa de uso, etc.) em https://github.com/giancarlozero/wordpress-livro-tema.
+Mais informa√ß√µes sobre este tema (hist√≥rico de mudan√ßas, licen√ßa de uso, etc.) em https://github.com/giancarlozero/wordpress-livro-tema.
 
 Como instalar este tema?
 ------------------------
 
-VocÍ pode instalar este tema em seu site WordPress de duas maneiras:
+Voc√™ pode instalar este tema em seu site WordPress de duas maneiras:
 
-1. Descompacte o pacote meu-blog.zip. Envie a pasta "/meu-blog" com todo o seu conte˙do via FTP para dentro da pasta "/wp-content/themes" em sua instalaÁ„o do WordPress;
+1. Descompacte o pacote meu-blog.zip. Envie a pasta "/meu-blog" com todo o seu conte√∫do via FTP para dentro da pasta "/wp-content/themes" em sua instala√ß√£o do WordPress;
 
-2. Acesse no Painel de Controle do WordPress a opÁ„o AparÍncia > Temas. Clique no bot„o Adicionar Novo e depois em "Fazer upload do tema". Clique no bot„o "Selecionar arquivo" e selecione o pacote meu-blog.zip que vocÍ baixou. Aguarde o upload e depois clique em "Ativar".
+2. Acesse no Painel de Controle do WordPress a op√ß√£o Apar√™ncia > Temas. Clique no bot√£o Adicionar Novo e depois em "Fazer upload do tema". Clique no bot√£o "Selecionar arquivo" e selecione o pacote meu-blog.zip que voc√™ baixou. Aguarde o upload e depois clique em "Ativar".

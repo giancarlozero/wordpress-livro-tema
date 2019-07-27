@@ -28,6 +28,7 @@ Este tema para WordPress está sendo distribuído gratuitamente sob a *2ª vers�
 
 ## Histórico de mudanças/Change log:
 
+* **Versão 1.1.0 (27/07/2019)** - Compatibilidade com o Gutenberg implementada no tema.
 * **Versão 1.0.1 (30/06/2018)** - CSS gerado pelo WordPress atualizado no tema.
 * **Versão 1.0.0 (28/07/2017)** - CSS da exibição de comentários adicionado. Fim dos testes. Primeira versão final do tema.
 * **Versão 0.2.1 Beta (16/06/2017)** - Correção na geração de thumbnails na home do tema.
