@@ -99,3 +99,14 @@ register_sidebar( array(
     'before_title'  => '<h1>',
     'after_title'   => '</h1>',
 ) );
+
+/* Gutenberg - Compatibilidade */
+function meu_blog_gutenberg_setup() {
+    // - Estilos CSS padrão do editor para o Painel de Controle, renderizados no frontend do tema. Use somente se você não quiser usar seu próprio código CSS.
+    // add_theme_support( 'wp-block-styles' );
+
+    // - Bloco Código incorporado: Vídeos responsivos
+    add_theme_support( 'responsive-embeds' );
+}
+
+add_action( 'after_setup_theme', 'meu_blog_gutenberg_setup' );

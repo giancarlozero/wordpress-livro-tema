@@ -4,7 +4,7 @@ Theme URI: https://github.com/giancarlozero/wordpress-livro-tema
 Description: Tema responsivo para WordPress - material de estudo para o livro WordPress: de blogs pessoais a grandes portais
 Author: Giancarlo Silva
 Author URI: http://giancarlosilva.com.br
-Version: 1.0.1
+Version: 1.1.0
 Tags: blue, white, two-columns, responsive
 
 License: GNU GPLv2
@@ -82,10 +82,6 @@ h6 {
     position: relative;
     z-index: 10;
 }
-
-/*.top-bar, .top-bar ul, .top-bar-left, .dropdown.menu, .menu li {
-    background-color: #BFE6FF;
-}*/
 
 /* Conteúdo - Posts e páginas */
 .conteudo {
