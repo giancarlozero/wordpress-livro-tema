@@ -4,10 +4,11 @@ Tema responsivo simples de duas colunas construído com base no [Foundation Fram
 
 Este tema será utilizado como material de estudo para uso em conjunto com o livro **WordPress: de blogs pessoais a grandes portais**. Ele também poderá ser usado como um tema comum em uma instalação do WordPress, tendo todas as funcionalidades mais básicas perfeitamente funcionais.
 
-Adquira uma cópia do meu livro **por apenas R$ 34,90**. Você pode comprar:
+Adquira uma cópia do meu livro! Você pode comprar:
 
 - [Em meu site, **sem DRM** e nos formatos EPUB, Mobi e PDF](https://giancarlosilva.com.br/produto/wordpress-de-blogs-pessoais-a-grandes-portais-ebook/);
-- [Ou na loja da Amazon](https://www.amazon.com.br/dp/B072J3WVPK/).
+- [Na loja da Amazon](https://www.amazon.com.br/dp/B072J3WVPK/);
+- [Ou na loja do Google](https://play.google.com/store/books/details/Giancarlo_Silva_WordPress_de_blogs_pessoais_a_gran?id=kT1xDwAAQBAJ).
 
 Mais informações em [**giancarlosilva.com.br/livro-wordpress**](https://giancarlosilva.com.br/livro-wordpress/).
 
@@ -15,11 +16,11 @@ Mais informações em [**giancarlosilva.com.br/livro-wordpress**](https://gianca
 
 Cada capítulo da parte III do livro acompanha diversos exemplos em código. Além de ler o código nesses trechos do livro, você também poderá acessar o tema completo na branch [*master*](https://github.com/giancarlozero/wordpress-livro-tema) desse repositório ou acessar a branch [*livro*](https://github.com/giancarlozero/wordpress-livro-tema/tree/livro), que contém várias outras pastas chamadas */passo_01*, */passo_02*, */passo_03*, etc.
 
-Cada uma dessas pastas mostrará somente o código relativo a seu respectivo capítulo, para que o(a) leitor(a) possa acompanhar melhor o progresso da criação deste tema.
+Cada uma dessas pastas mostrará somente o código relativo a seu respectivo capítulo do livro, para que o(a) leitor(a) possa acompanhar melhor o progresso da criação deste tema.
 
 ## Licença
 
-Este tema para WordPress está sendo distribuído gratuitamente sob a *2ª versão da licença GNU General Public License (GNU GPLv2)*, o que significa que você poderá alterar, personalizar e redistribuir o tema como desejar, desde que respeite os termos desta licença, que pode ser lida [a partir deste link](https://wordpress.org/about/gpl/).
+Este tema para WordPress está sendo distribuído gratuitamente sob a *2ª versão da licença "GNU General Public License" (GNU GPLv2)*, o que significa que você poderá alterar, personalizar e redistribuir o tema como desejar, desde que respeite os termos desta licença, que pode ser lida [a partir deste link](https://wordpress.org/about/gpl/).
 
 **Você não é obrigado a comprar o meu livro para utilizar este tema** ([mas agradeço demais se você o comprar, é claro!](https://giancarlosilva.com.br/produto/wordpress-de-blogs-pessoais-a-grandes-portais-ebook/)).
 
@@ -27,6 +28,7 @@ Este tema para WordPress está sendo distribuído gratuitamente sob a *2ª vers�
 
 ## Histórico de mudanças/Change log:
 
+* **(18/08/2025)** - Alteração no README para acrescentar o link de compra do meu livro na Google Play Store. Também removi o preço do livro desse texto, já que ele está sujeito a mudanças (como em promoções e reajustes, por exemplo).
 * **Versão 1.1.0 (27/07/2019)** - Compatibilidade com o Gutenberg implementada no tema.
 * **Versão 1.0.1 (30/06/2018)** - CSS gerado pelo WordPress atualizado no tema.
 * **Versão 1.0.0 (28/07/2017)** - CSS da exibição de comentários adicionado. Fim dos testes. Primeira versão final do tema.
