@@ -28,6 +28,7 @@ Este tema para WordPress está sendo distribuído gratuitamente sob a *2ª vers�
 
 ## Histórico de mudanças/Change log:
 
+* **(18/08/2025)** - Alteração no README para acrescentar o link de compra do meu livro na Google Play Store. Também removi o preço do livro desse texto, já que ele está sujeito a mudanças (como em promoções e reajustes, por exemplo).
 * **Versão 1.1.0 (27/07/2019)** - Compatibilidade com o Gutenberg implementada no tema.
 * **Versão 1.0.1 (30/06/2018)** - CSS gerado pelo WordPress atualizado no tema.
 * **Versão 1.0.0 (28/07/2017)** - CSS da exibição de comentários adicionado. Fim dos testes. Primeira versão final do tema.
